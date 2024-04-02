@@ -6,9 +6,9 @@ These scripts complete the following tasks via the Cloudflare API:
 - To import records using with a properly formatted file.
 
 The following must be set as environmental variables for the script to work (Applies to both Python and PowerShell versions):
-- CF_ZONE_ID
-- CF_EMAIL
-- CF_API_KEY
+- Zone ID
+- Cloudflare Email
+- Cloudflare API Key
 
 [Cloudflare Documentation > Import and export records](https://developers.cloudflare.com/dns/manage-dns-records/how-to/import-and-export/)
 
