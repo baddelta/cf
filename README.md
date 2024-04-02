@@ -1,11 +1,11 @@
 # Cloudflare Scripts
 
 ## ExportImport Zone File
-This script completes the following tasks via the Cloudflare API:
+These scripts complete the following tasks via the Cloudflare API:
 - To export DNS records.
 - To import records using with a properly formatted file.
 
-The following must be set as environmental variables for the script to work:
+The following must be set as environmental variables for the script to work (Applies to both Python and PowerShell versions):
 - CF_ZONE_ID
 - CF_EMAIL
 - CF_API_KEY
