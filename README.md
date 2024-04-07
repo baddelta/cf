@@ -10,7 +10,7 @@ The following must be set as environmental variables for the script to work (App
 - Cloudflare Email
 - Cloudflare API Key
 
-##ExportImportZoneFileUnattended.ps1
+## ExportImportZoneFileUnattended.ps1
 These scripts complete the following tasks via the Cloudflare API:
 - To export DNS records.
 - To import records using with a properly formatted file. (File must be named "bind_config.txt" and stored in the same location as the script)
